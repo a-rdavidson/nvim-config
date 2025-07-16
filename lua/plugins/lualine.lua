@@ -1,0 +1,15 @@
+-- return {
+--     "nvim-lualine/lualine.nvim",
+--    dependencies = {
+--        "nvim-tree/nvim-web-devicons",
+--    },
+--    opts = {
+--        options = {
+--            theme = "catppuccin",
+--            section_separators = "",
+--            component_separators = "",
+--        },
+--    },
+--}
+--
+return { "ellisonleao/gruvbox.nvim", priority = 1000 , config = true, opts = ...}
